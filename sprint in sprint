@@ -1,0 +1,113 @@
+3 check
+var:0
+dup:0
+copy:read
+check:7 x:read var
+4 var zero zerop
+4 var one onep
+4 var two twop
+4 var three threep
+4 var four fourp
+4 var five fivep
+4 var seven sevenp
+4 var eight eightp
+4 var nine ninep
+
+
+zerop:1 x one zero1
+1 x two zero2
+1 zero2:0 copy zero2
+2  zero2 one z2
+7 zero1:0 z1
+0 z1:0 z2:0
+1 x three x
+3 check
+
+onep:1 x one one1
+1 x two one2
+1 x three one3
+1 one1:0 copy one1
+2 one1 one o1
+1 one2:0 copy one2
+2 one2 one o2
+1 one3:0 copy one3
+2 one3 one o3
+1 o1:0 o2:0 o3:0
+1 x four x
+3 check
+
+twop:1 x one two1
+1 x two two2
+1 x three two3
+1 two1:0 copy two1
+2 two1 one t1
+1 two2:0 copy two2
+2 two2 one t2
+1 two3:0 copy two3
+2 two3 one t3
+2 t1:0 t2:0 t3:0
+1 x four x
+3 check
+
+threep:1 x one r
+1 copy r:0 dup
+2  dup one dup
+7 dup x
+3 check
+
+fourp:1 x one four1
+1 x two four2
+1 x three four3
+1 four1:0 copy four1
+2 four1 one f1
+1 four2:0 copy four2
+2 four2 one f2
+1 four3:0 copy four3
+2 four3 one f3
+4 f1:0 f2:0 label
+1 x four x
+3 check
+label:7 f3 x
+3 check
+
+fivep:1 x one five1
+1 x two five2
+1 x three five3
+1 five1:0 copy five1
+2 five1 one fi1
+1 five2:0 copy five2
+2 five2 one fi2
+1 five3:0 copy five3
+2 five3 one fi3
+5 fi1:0 fi2:0 label1
+1 x four x
+3 check
+label1:7 fi3 x
+3 check
+
+sevenp:1 x one seven1
+1 x two seven2
+1 seven1:0 copy seven1
+2  seven1 one s1
+1 seven2:0 copy seven2
+2  seven2 one s2
+7 s1:0 s2:0
+1 x three x
+3 check
+
+ninep:9
+eightp:8
+
+zero:0
+one:1
+two:2
+three:3
+four:4
+five:5
+six:6
+seven:7
+eight:8
+nine:9
+f3:0
+fi3:0
+read:8
