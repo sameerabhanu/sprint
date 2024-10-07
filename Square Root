@@ -1,0 +1,17 @@
+3 5
+n:2
+result:0
+3 start
+x:1
+sum:1
+count:1
+zero:0
+two:2
+start:4 n zero stop
+5 n sum 34
+1 x two x
+1 x sum sum
+1 count 28 count
+3 16
+2 count 28 result
+stop:9
