@@ -1,0 +1,29 @@
+3 5 
+firstlo:71
+length:0
+3 start
+len:0
+l:0
+two:2
+one:1
+start:7 3 first
+7 3 firs
+2 length one l
+1 l first last
+1 l first las
+7 length len
+p:5 len two  stop
+5 last first stop
+7 first:f dupli
+7 last:la firs:f
+7 dupli las:la
+1 first one first
+1 firs one firs
+2 last one last 
+2 las one las
+3 p
+stop:9
+f:0
+la:0
+dupli:0
+1 2 3 4 5 
