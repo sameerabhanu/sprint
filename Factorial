@@ -1,0 +1,30 @@
+3 5
+n:6
+factorial:0
+3 14
+N:0
+fact:0
+count:0
+one:1
+two:2
+zero:0
+f:0
+5 n two R
+7 n N
+7 n f 
+4 f one stop
+7 zero 4
+2 f one fact
+7 zero count
+4 count fact z
+1 4 N 4
+1 count one count
+3 38
+z:7 4 N
+2 f one f
+3 24
+R:7 one 4 
+stop:9
+
+
+
